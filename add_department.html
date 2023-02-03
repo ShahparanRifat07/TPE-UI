@@ -48,7 +48,7 @@
                     <i class="bx bx-chevron-right icon-right"></i></a>
                 <ul class="side-dropdown">
                     <li><a href="">Parent List</a></li>
-                    <li><a href="">Parent Evaluation</a></li>
+                    <li><a href="">Parent Evaluation History</a></li>
                 </ul>
             </li>
 
@@ -61,7 +61,6 @@
                     <li><a href="">Administrative Role List</a></li>
                     <li><a href="add_administrative_role.html">Add Administrative Role</a></li>
                     <li><a href="">Administrator Evaluation</a></li>
-                    
                 </ul>
             </li>
 
@@ -138,66 +137,68 @@
 
         <!-- MAIN -->
         <main>
-            <h1 class="title">Dashboard</h1>
+            <h1 class="title">Add Teachers</h1>
             <ul class="breadcrumbs">
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="divider">/</li>
-                <li><a href="" class="active">Dashboard</a></li>
+                <li><a href="index.html">Departments</a></li>
+                <li class="divider">/</li>
+                <li><a href="" class="active">Add Department</a></li>
             </ul>
 
-
-            <div class="info-data">
+            <div class="add-student">
                 <div class="card">
-                    <div class="head">
-                        Courses
+                    <div class="add-student-head">
+                        <h4 class="text-dark">Department Information</h4>
                     </div>
-                    <h2 class="title">6</h2>
+                    <hr>
+                    <div class="add-student-form">
+                        <form  action="" method="POST">
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Department Name</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" placeholder="Enter Department Name"/>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Head of Department</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Head of Department"/>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Department ID</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control"  placeholder="Enter Departemnt ID"/>
+                                    </div>
+                                </div>
+                            </div>
 
-                </div>
 
-                <div class="card">
-                    <div class="head">
-                        Total Students
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4 mt-4">
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Description</label>
+                                    <div class="form-outline">
+                                        <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Write Department Description"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+
+                            <!-- Submit button -->
+                            <div class="student-submit">
+                                <button type="submit" class="btn btn-primary btn-block mb-4 mt-4">Submit</button>
+                            </div>
+                        </form>
                     </div>
-
-                    <h2 class="title">170</h2>
-
                 </div>
-
-                <div class="card">
-                    <div class="head">
-                        Overall Rating
-                    </div>
-
-                    <h2 class="title">4.1</h2>
-
-                </div>
-
             </div>
 
-
-            <div class="notice-data">
-                <div class="card">
-                    <div class="card-header">
-                        <h5><i class="fa-regular fa-bell"></i> Important Announcment </h5>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Evaluation Started</h4>
-                        <a href="#" class="card-text">Evaluation has been started. Please complete your evaluation as soon as possible</a>
-                      </div>
-                </div>
-            </div>
-
-
-            <div class="chart-data">
-                <div class="card">
-                    <div id="chart"></div>
-                </div>
-
-                <div class="card">
-                    <div id="chart1"></div>
-                </div>
-            </div>
         </main>
 
 
@@ -215,7 +216,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script type="text/javascript" src="main.js"></script>
-    
+
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 </body>

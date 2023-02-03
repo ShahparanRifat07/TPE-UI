@@ -59,9 +59,8 @@
                     <li><a href="">Administrator List</a></li>
                     <li><a href="add_administraor.html">Add Administrator</a></li>
                     <li><a href="">Administrative Role List</a></li>
-                    <li><a href="add_administrative_role.html">Add Administrative Role</a></li>
+                    <li><a href="">Add Administrative Role</a></li>
                     <li><a href="">Administrator Evaluation</a></li>
-                    
                 </ul>
             </li>
 
@@ -70,7 +69,7 @@
                     <i class="bx bx-chevron-right icon-right"></i></a>
                 <ul class="side-dropdown">
                     <li><a href="">Department List</a></li>
-                    <li><a href="add_department.html">Add Department</a></li>
+                    <li><a href="">Add Department</a></li>
                 </ul>
             </li>
 
@@ -138,66 +137,107 @@
 
         <!-- MAIN -->
         <main>
-            <h1 class="title">Dashboard</h1>
+            <h1 class="title">Add Administrative Role</h1>
             <ul class="breadcrumbs">
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="divider">/</li>
-                <li><a href="" class="active">Dashboard</a></li>
+                <li><a href="index.html">Administrator</a></li>
+                <li class="divider">/</li>
+                <li><a href="" class="active">Add Administrative Role</a></li>
             </ul>
 
-
-            <div class="info-data">
+            <div class="add-student">
                 <div class="card">
-                    <div class="head">
-                        Courses
+                    <div class="add-student-head">
+                        <h4 class="text-dark">Administrative Role Details</h4>
                     </div>
-                    <h2 class="title">6</h2>
+                    <hr>
+                    <div class="add-student-form">
+                        <form action="" method="POST">
 
-                </div>
 
-                <div class="card">
-                    <div class="head">
-                        Total Students
+                            <!-- <h5 class="text-dark mb-4">Role Details:</h5> -->
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col-6">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Title</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control"
+                                            placeholder="Enter Role Title" />
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Role ID</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control"
+                                            placeholder="Enter Role ID" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col-12">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Role
+                                        Description</label>
+                                    <div class="form-outline">
+                                        <textarea class="form-control" name="" id="" cols="10" rows="3"
+                                            placeholder="Enter Role Title"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4 mt-4">
+                                <h5 class="text-dark mb-4 mt-4">Permissions:</h5>
+                                <div class="col-6">
+                                    <div class="form-check form-switch permission-checkbox">
+                                        <input type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Can Add Teacher</label>
+                                    </div>
+
+                                    <div class="form-check form-switch permission-checkbox">
+                                        <input type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Can Add Students</label>
+                                    </div>
+                                    <div class="form-check form-switch permission-checkbox">
+                                        <input type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Can Add Courses</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="form-check form-switch permission-checkbox">
+                                        <input type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Can Edit/Delete Teacher</label>
+                                    </div>
+
+                                    <div class="form-check form-switch permission-checkbox">
+                                        <input type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Can Edit/Delete Student</label>
+                                    </div>
+                                    <div class="form-check form-switch permission-checkbox">
+                                        <input type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Can Edit/Delete Course</label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+
+
+
+                            <!-- Submit button -->
+                            <div class="student-submit">
+                                <button type="submit" class="btn btn-primary btn-block mb-4 mt-4">Submit</button>
+                            </div>
+                        </form>
                     </div>
-
-                    <h2 class="title">170</h2>
-
                 </div>
-
-                <div class="card">
-                    <div class="head">
-                        Overall Rating
-                    </div>
-
-                    <h2 class="title">4.1</h2>
-
-                </div>
-
             </div>
 
-
-            <div class="notice-data">
-                <div class="card">
-                    <div class="card-header">
-                        <h5><i class="fa-regular fa-bell"></i> Important Announcment </h5>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Evaluation Started</h4>
-                        <a href="#" class="card-text">Evaluation has been started. Please complete your evaluation as soon as possible</a>
-                      </div>
-                </div>
-            </div>
-
-
-            <div class="chart-data">
-                <div class="card">
-                    <div id="chart"></div>
-                </div>
-
-                <div class="card">
-                    <div id="chart1"></div>
-                </div>
-            </div>
         </main>
 
 
@@ -215,7 +255,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script type="text/javascript" src="main.js"></script>
-    
+
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 </body>

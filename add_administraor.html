@@ -61,7 +61,6 @@
                     <li><a href="">Administrative Role List</a></li>
                     <li><a href="add_administrative_role.html">Add Administrative Role</a></li>
                     <li><a href="">Administrator Evaluation</a></li>
-                    
                 </ul>
             </li>
 
@@ -70,7 +69,7 @@
                     <i class="bx bx-chevron-right icon-right"></i></a>
                 <ul class="side-dropdown">
                     <li><a href="">Department List</a></li>
-                    <li><a href="add_department.html">Add Department</a></li>
+                    <li><a href="">Add Department</a></li>
                 </ul>
             </li>
 
@@ -91,7 +90,7 @@
                     <li><a href="">Add Factors</a></li>
                     <li><a href="">Question List</a></li>
                     <li><a href="">Add Questions</a></li>
-
+                    
                     <li><a href="">Draft List</a></li>
                     <li><a href="">Start Evaluation</a></li>
                     <li><a href="">Evaluation History</a></li>
@@ -138,66 +137,105 @@
 
         <!-- MAIN -->
         <main>
-            <h1 class="title">Dashboard</h1>
+            <h1 class="title">Add Administrators</h1>
             <ul class="breadcrumbs">
-                <li><a href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li class="divider">/</li>
-                <li><a href="" class="active">Dashboard</a></li>
+                <li><a href="index.html">Administrator</a></li>
+                <li class="divider">/</li>
+                <li><a href="" class="active">Add Administrator</a></li>
             </ul>
 
-
-            <div class="info-data">
+            <div class="add-student">
                 <div class="card">
-                    <div class="head">
-                        Courses
+                    <div class="add-student-head">
+                        <h4 class="text-dark">Administrator Information</h4>
+                        <a href="" class="btn btn-success"><i class="fa-solid fa-file-excel icon"></i> Add Administrators Using
+                            XLS</a>
                     </div>
-                    <h2 class="title">6</h2>
+                    <hr>
+                    <div class="add-student-form">
+                        <form  action="" method="POST">
 
-                </div>
 
-                <div class="card">
-                    <div class="head">
-                        Total Students
+                            <h5 class="text-dark mb-4">Basic Details:</h5>
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">First Name</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" placeholder="Enter FirstName"/>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Last Name</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter LastName"/>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Administrator ID</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Administrative ID"/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Phone Number</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Phone Number" />
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Role</label>
+                                        <select class="form-select form-select" aria-label=".form-select-sm example">
+                                            <option selected disabled>Select Role</option>
+                                            <option value="1">Register</option>
+                                            <option value="2">Course Cordinator</option>
+                                            <option value="3">Exam Controller</option>
+                                        </select>
+                                </div>
+                            </div>
+
+
+
+                            <!-- 3 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4 mt-4">
+                                <h5 class="text-dark mb-4 mt-4">Login Details:</h5>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Username</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example1" class="form-control" placeholder="Enter Username"/>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Email</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Email Address"/>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="exampleInputEmail1" class="form-label text-dark">Password</label>
+                                    <div class="form-outline">
+                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Password"/>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Submit button -->
+                            <div class="student-submit">
+                                <button type="submit" class="btn btn-primary btn-block mb-4 mt-4">Submit</button>
+                            </div>
+                        </form>
                     </div>
-
-                    <h2 class="title">170</h2>
-
                 </div>
-
-                <div class="card">
-                    <div class="head">
-                        Overall Rating
-                    </div>
-
-                    <h2 class="title">4.1</h2>
-
-                </div>
-
             </div>
 
-
-            <div class="notice-data">
-                <div class="card">
-                    <div class="card-header">
-                        <h5><i class="fa-regular fa-bell"></i> Important Announcment </h5>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">Evaluation Started</h4>
-                        <a href="#" class="card-text">Evaluation has been started. Please complete your evaluation as soon as possible</a>
-                      </div>
-                </div>
-            </div>
-
-
-            <div class="chart-data">
-                <div class="card">
-                    <div id="chart"></div>
-                </div>
-
-                <div class="card">
-                    <div id="chart1"></div>
-                </div>
-            </div>
         </main>
 
 
@@ -215,7 +253,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script type="text/javascript" src="main.js"></script>
-    
+
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
 </body>
