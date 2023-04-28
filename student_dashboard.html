@@ -20,55 +20,13 @@
 <body>
     <!-- SIDEBAR -->
     <section id="sidebar">
+       
         <ul class="side-menu">
+            <div mb-4></div>
             <li>
-                <a href="index.html"><i class="bx bxs-dashboard icon"></i>Dashboard</a>
-            </li>
-            <li>
-                <a href=""><i class="fas fa-chalkboard-teacher icon"></i>Teachers
-                    <i class="bx bx-chevron-right icon-right"></i></a>
-                <ul class="side-dropdown">
-                    <li><a href="teacher_list.html">Teacher List</a></li>
-                    <li><a href="add_teacher.html">Add Teacher</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href=""><i class="fas fa-graduation-cap icon"></i>Students
-                    <i class="bx bx-chevron-right icon-right"></i></a>
-                <ul class="side-dropdown">
-                    <li><a href="student_list.html">Student List</a></li>
-                    <li><a href="add_student.html">Add Student</a></li>
-                </ul>
+                <a href="student_dashboard.html"><i class="bx bxs-dashboard icon"></i>Dashboard</a>
             </li>
 
-            <li>
-                <a href=""><i class="fa-solid fa-user-group icon"></i>Parents
-                    <i class="bx bx-chevron-right icon-right"></i></a>
-                <ul class="side-dropdown">
-                    <li><a href="parent_list.html">Parent List</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href=""><i class="fa-solid fa-user-tie icon"></i>Administrator
-                    <i class="bx bx-chevron-right icon-right"></i></a>
-                <ul class="side-dropdown">
-                    <li><a href="administrator_list.html">Administrator List</a></li>
-                    <li><a href="add_administraor.html">Add Administrator</a></li>
-                    <li><a href="administrative_role_list.html">Administrative Role List</a></li>
-                    <li><a href="add_administrative_role.html">Add Administrative Role</a></li>
-                    
-                </ul>
-            </li>
-
-            <li>
-                <a href=""><i class="fas fa-building icon"></i>Department
-                    <i class="bx bx-chevron-right icon-right"></i></a>
-                <ul class="side-dropdown">
-                    <li><a href="department_list.html">Department List</a></li>
-                    <li><a href="add_department.html">Add Department</a></li>
-                </ul>
-            </li>
 
             <li>
                 <a href=""><i class="fas fa-book-reader icon"></i>Courses
@@ -92,18 +50,6 @@
                 </ul>
             </li>
             
-            <li>
-                <a href=""><i class="fa-solid fa-print icon"></i>Reprots
-                    <i class="bx bx-chevron-right icon-right"></i></a>
-                <ul class="side-dropdown">
-                    <li><a href="">Ongoing Evaluation Report</a></li>
-                    <li><a href="">Evaluation History</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href=""><i class="fa-solid fa-gear icon"></i>Settings</a>
-            </li>
         </ul>
     </section>
     <!-- SIDEBAR -->
@@ -150,6 +96,62 @@
             </ul>
 
 
+            <div class="info-data">
+                <div class="card">
+                    <div class="head">
+                        <i class="fas fa-book-reader me-2"></i>Courses
+                    </div>
+                    <h2 class="title">6</h2>
+
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <i class="fas fa-graduation-cap me-2"></i>Total Students
+                    </div>
+
+                    <h2 class="title">170</h2>
+
+                </div>
+
+                <div class="card">
+                    <div class="head">
+                        <i class="fa-solid fa-star me-2"></i> Overall Rating
+                    </div>
+
+                    <h2 class="title">4.1</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="notice-data">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fa-regular fa-bell"></i> Important Announcment </h5>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Evaluation Started</h4>
+                        <a href="#" class="card-text">Evaluation has been started. Please complete your evaluation as soon as possible</a>
+                      </div>
+                </div>
+            </div>
+
+
+            <div class="chart-data">
+                <div class="card">
+                    <div id="chart"></div>
+                </div>
+
+                <div class="card">
+                    <div id="chart1"></div>
+                </div>
+
+                <div class="card">
+                    <div id="chart2"></div>
+                </div>
+            </div>
         </main>
 
 

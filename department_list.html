@@ -86,7 +86,7 @@
                 <a href=""><i class="fa-solid fa-list-check icon"></i>Evaluation
                     <i class="bx bx-chevron-right icon-right"></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="">Evaluation Factors</a></li>
+                    <li><a href="factor_list.html">Evaluation Factors</a></li>
                     <li><a href="">Draft List</a></li>
                     <li><a href="">Create Evaluation</a></li>
                 </ul>
@@ -145,101 +145,123 @@
 
         <!-- MAIN -->
         <main>
-            <h1 class="title">Add Administrators</h1>
+            <h1 class="title">Departments</h1>
             <ul class="breadcrumbs">
                 <li><a href="index.html">Home</a></li>
                 <li class="divider">/</li>
-                <li><a href="administrator_list.html">Administrator</a></li>
-                <li class="divider">/</li>
-                <li><a href="" class="active">Add Administrator</a></li>
+                <li><a href="" class="active">Departments</a></li>
             </ul>
+
+
+            <div class="search-list mb-4">
+                <form action="" method="POST">
+                    <div class="row mb-3">
+                        <div class="col-5">
+                            <div class="form-outline bg-white">
+                                <input type="text" id="form6Example1" class="form-control"
+                                    placeholder="Search by Departemnt ID ..." />
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="form-outline bg-white">
+                                <input type="text" id="form6Example2" class="form-control"
+                                    placeholder="Search by Departemnt Name ..." />
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <!-- Submit button -->
+                            <!-- <div class="student-submit"> -->
+                            <a href="" type="submit" class="btn btn-primary bg-color-purple"><i
+                                    class="fa-solid fa-magnifying-glass"></i></a>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </form>
+                <!-- 3 column grid layout with text inputs for the first and last names -->
+            </div>
 
             <div class="add-student">
                 <div class="card">
                     <div class="add-student-head">
-                        <h4 class="text-dark">Administrator Information</h4>
-                        <a href="" class="btn btn-success"><i class="fa-solid fa-file-excel icon"></i> Add Administrators Using
-                            XLS</a>
+                        <h4 class="text-dark">Departments</h4>
+
+                        <div>
+                            <a href="" class="btn btn-primary bg-color-purple"><i class="fa-solid fa-download"></i>
+                                Download</a>
+                            <a href="add_department.html" class="btn btn-primary ms-2 bg-color-purple"><i class="fa-solid fa-plus"></i></a>
+                        </div>
                     </div>
-                    <hr>
+                    <!-- <hr> -->
                     <div class="add-student-form">
-                        <form  action="" method="POST">
+                        <table class="table table-hover table-responsive align-middle mb-0 bg-white">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Department ID</th>
+                                    <th>Department Name</th>
+                                    <th>Department Head</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>5001</td>
+                                    <td>Science</td>
+                                    <td>Kate Harington</td>
+                                    <td>
+                                        <a href="" class="btn btn-rounded student-list-edit"><i
+                                            class="fa-solid fa-eye"></i></a>
+                                        <a href="" class="btn btn-rounded student-list-edit"><i
+                                                class="fa-solid fa-pen-to-square"></i></a>
+                                    </td>
+                                </tr>
 
+                                <tr>
+                                    <td>2</td>
+                                    <td>5002</td>
+                                    <td>Arts</td>
+                                    <td>John Lynn</td>
+                                    <td>
+                                        <a href="" class="btn btn-rounded student-list-edit"><i
+                                            class="fa-solid fa-eye"></i></a>
+                                        <a href="" class="btn btn-rounded student-list-edit"><i
+                                                class="fa-solid fa-pen-to-square"></i></a>
+                                    </td>
+                                </tr>
 
-                            <h5 class="text-dark mb-4">Basic Details:</h5>
-                            <!-- 3 column grid layout with text inputs for the first and last names -->
-                            <div class="row mb-4">
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">First Name</label>
-                                    <div class="form-outline">
-                                        <input type="text" id="form6Example1" class="form-control" placeholder="Enter FirstName"/>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">Last Name</label>
-                                    <div class="form-outline">
-                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter LastName"/>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">Administrator ID</label>
-                                    <div class="form-outline">
-                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Administrative ID"/>
-                                    </div>
-                                </div>
-                            </div>
+                                <tr>
+                                    <td>3</td>
+                                    <td>5003</td>
+                                    <td>Commerce</td>
+                                    <td>Abdul Karim</td>
+                                    <td>
+                                        <a href="" class="btn btn-rounded student-list-edit"><i
+                                            class="fa-solid fa-eye"></i></a>
+                                        <a href="" class="btn btn-rounded student-list-edit"><i
+                                                class="fa-solid fa-pen-to-square"></i></a>
+                                    </td>
+                                </tr>
 
+                            </tbody>
+                        </table>
 
-                            <!-- 3 column grid layout with text inputs for the first and last names -->
-                            <div class="row mb-4">
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">Phone Number</label>
-                                    <div class="form-outline">
-                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Phone Number" />
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">Role</label>
-                                        <select class="form-select form-select" aria-label=".form-select-sm example">
-                                            <option selected disabled>Select Role</option>
-                                            <option value="1">Register</option>
-                                            <option value="2">Course Cordinator</option>
-                                            <option value="3">Exam Controller</option>
-                                        </select>
-                                </div>
-                            </div>
-
-
-
-                            <!-- 3 column grid layout with text inputs for the first and last names -->
-                            <div class="row mb-4 mt-4">
-                                <h5 class="text-dark mb-4 mt-4">Login Details:</h5>
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">Username</label>
-                                    <div class="form-outline">
-                                        <input type="text" id="form6Example1" class="form-control" placeholder="Enter Username"/>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">Email</label>
-                                    <div class="form-outline">
-                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Email Address"/>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <label for="exampleInputEmail1" class="form-label text-dark">Password</label>
-                                    <div class="form-outline">
-                                        <input type="text" id="form6Example2" class="form-control" placeholder="Enter Password"/>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- Submit button -->
-                            <div class="student-submit">
-                                <button type="submit" data-mdb-ripple-duration="0" class="btn btn-primary btn-block mb-4 mt-4">Submit</button>
-                            </div>
-                        </form>
+                        <div class="mt-4">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-start">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>

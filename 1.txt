@@ -1,0 +1,38 @@
+Assalamualikum sir. I am shahparan rifat. ID-011191150. 
+So our project topic is An Adaptive Framework for Teachers performance evaluation for Primary and Secondary level Education in Bangladesh.
+//our projects aim is to design and build a teacher performance evaluation system for all levels of education in Bangladesh.
+
+So,before explaining our project details to you, let me share a experience of mine with you. So, I have been studying in verious educational instiutions for like 20 years.
+And in those 20 years, I have attended 4 to 5 different educational institutions to recive education 
+but only after i admitted to united international university, i have heared about teachers' evaluation system. 
+And this same experience goes for all of my teammates. 
+//So, from that you can imagine the reality or the present situation and the quality of educational system of our country. 
+
+Most of the schools and colleges in bangladesh lacks the ability to measure or judge a teachers performance. As a result, teachers has less accountability.
+So for that We grow up witnessing the lack of quality teachers in our schools and colleges.
+
+So, we think that main reason behind it is infrustructor, So most of the insittutions in bangladesh lacks the infrustructors to effectively evaluate a teachers performace.
+That's mostly because of financial constraints. Those institustions don't have the budget or money to build and run their own evaluation tool.
+And also they lack of sufficient research and maintenance. They maybe not find or know the proper factors or critaria to evaluate a teacher properly.
+
+So that why, some schools or colleges who are concerned teachers' performance use pen and paper evaluation process which is poorly managed and lacks fairness.
+
+So, that's why We felt, we need to contribute to our education system and do something to improve our educational quality of our institustions even on rural area.
+
+So our idea is to develop a centralized software system for all which they can use to evaluate a teacher's performance.
+our software will be provided as a software as a service to all institutions in primary and secondary level of education in Bangladesh.
+
+Objectives...
+our projects main obbjectives is to find out all crucial stakeholders and factors in a evaluation process of Primary and Secondary education in Bangladesh.
+after that to Design a comprehensive and dynamic evaluation system for them. and lastly to Construct a fully functional software that meets our target.
+
+
+
+
+
+
+
+
+
+So, first and foremost, we must address the main problem statement. What problem are we facing right now.
+And what is the reason behind our work.
